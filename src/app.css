@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ns-root {
+  --blue-600: #2563eb;
+  --purple-600: #9333ea;
+  --gray-50: #f9fafb;
+  --gray-600: #4b5563;
+}
+
+scrollView {
+  background-color: white;
+}
+
+button {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.bg-gradient-to-r {
+  background: linear-gradient(to right, var(--blue-600), var(--purple-600));
+}
